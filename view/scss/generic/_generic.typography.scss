@@ -1,0 +1,37 @@
+@include lib-font-face(
+        $family-name: $font__family-icons,
+        $font-path: $icon__path,
+        $font-weight: $font__family-icons,
+        $font-ext: "ttf",
+        $font-format: 'truetype'
+);
+@include lib-font-face(
+        $family-name: $font__family-light,
+        $font-path: $font__path,
+        $font-weight: $font__family-light,
+        $font-ext: "ttf",
+        $font-format: 'truetype'
+);
+@include lib-font-face(
+        $family-name: $font__family-regular,
+        $font-path: $font__path,
+        $font-weight: $font__weight-regular,
+        $font-ext: "ttf",
+        $font-format: 'truetype'
+);
+@include lib-font-face(
+        $family-name: $font__family-bold,
+        $font-path: $font__path,
+        $font-weight: $font__weight-regular,
+        $font-ext: "ttf",
+        $font-format: 'truetype'
+);
+
+body {
+    @include lib-typography(
+            $_font-size: $font__size-base,
+            $_font-color: $text__color,
+            $_font-family: $font__family-bold,
+            $_font-weight: $font__weight-regular,
+    );
+}

@@ -1,0 +1,155 @@
+@mixin lib-btn-primary(
+    $_btn-background: $button-primary__background,
+    $_btn-font-family: $font__family-bold,
+    $_btn-color: $button-primary__color,
+    $_btn-padding: $button__padding,
+    $_btn-border-radius: $button-primary__border-radius,
+    $_btn-font-size: $button__font-size,
+    $_btn-hover-background: $button-primary__hover__background,
+    $_btn-hover-color: $button-primary__hover__color,
+    $_btn-box-shadow: $button__box-shadow,
+    $_btn-round: false
+) {
+    font-family: $_btn-font-family;
+    background-color: $_btn-background;
+    color: $_btn-color;
+    font-size: $_btn-font-size;
+    box-shadow: $_btn-box-shadow;
+    @if $_btn-round {
+        height: $button-round__width;
+        width: $button-round__width;
+        border-radius: 50%;
+    } @else {
+        padding: $_btn-padding;
+        border-radius: $_btn-border-radius;
+    }
+    &.active {
+        background-color: $_btn-hover-background;
+    }
+    &:hover {
+        background-color: $_btn-hover-background;
+        color: $_btn-hover-color;
+    }
+    @include lib-animation-shine();
+}
+
+@mixin lib-btn-small-primary(
+    $_btn-padding: $button-small__padding,
+    $_btn-font-size: $button-small__font-size
+) {
+    @include lib-btn-primary(
+            $_btn-padding: $button-small__padding,
+            $_btn-font-size: $button-small__font-size
+    );
+}
+
+
+@mixin lib-btn-secondary(
+    $_btn-background: $button-secondary__background,
+    $_btn-font-family: $font__family-bold,
+    $_btn-color: $button-secondary__color,
+    $_btn-padding: $button__padding,
+    $_btn-border-radius: $button-secondary__border-radius,
+    $_btn-font-size: $button__font-size,
+    $_btn-hover-background: $button-secondary__hover__background,
+    $_btn-hover-color: $button-secondary__hover__color,
+    $_btn-box-shadow: $button__box-shadow
+) {
+    font-family: $_btn-font-family;
+    background-color: $_btn-background;
+    color: $_btn-color;
+    padding: $_btn-padding;
+    border-radius: $_btn-border-radius;
+    font-size: $_btn-font-size;
+    box-shadow: $_btn-box-shadow;
+    &.active {
+        background-color: $_btn-hover-background;
+    }
+    &:hover {
+        background-color: $_btn-hover-background;
+        color: $_btn-hover-color;
+    }
+    @include lib-animation-shine();
+}
+
+@mixin lib-btn-small-secondary(
+    $_btn-padding: $button-small__padding,
+    $_btn-font-size: $button-small__font-size
+) {
+    @include lib-btn-secondary(
+            $_btn-padding: $button-small__padding,
+            $_btn-font-size: $button-small__font-size
+    );
+}
+
+@mixin lib-btn-primary(
+    $_btn-background: $button-primary__background,
+    $_btn-font-family: $font__family-bold,
+    $_btn-color: $button-primary__color,
+    $_btn-padding: $button__padding,
+    $_btn-border-radius: $button-primary__border-radius,
+    $_btn-font-size: $button__font-size,
+    $_btn-hover-background: $button-primary__hover__background,
+    $_btn-hover-color: $button-primary__hover__color,
+    $_btn-box-shadow: $button__box-shadow,
+    $_btn-round: false
+) {
+    font-family: $_btn-font-family;
+    background-color: $_btn-background;
+    color: $_btn-color;
+    font-size: $_btn-font-size;
+    box-shadow: $_btn-box-shadow;
+    @if $_btn-round {
+        height: $button-round__width;
+        width: $button-round__width;
+        border-radius: 50%;
+    } @else {
+        padding: $_btn-padding;
+        border-radius: $_btn-border-radius;
+    }
+    &.active {
+        background-color: $_btn-hover-background;
+    }
+    &:hover {
+        background-color: $_btn-hover-background;
+        color: $_btn-hover-color;
+    }
+    @include lib-animation-shine();
+}
+
+@mixin lib-btn-shape(
+    $_btn-shape-width,
+    $_btn-shape-height,
+    $_btn-shape-margin: 0,
+    $_btn-shape-radius: $button__radius,
+    $_btn-shape-background: $color-on-surface,
+) {
+    width: $_btn-shape-width;
+    height: $_btn-shape-height;
+    border-radius: $_btn-shape-radius;
+    background-color: $_btn-shape-background;
+    margin: $_btn-shape-margin
+}
+
+@mixin lib-button-as-link() {
+    @include lib-reset-link();
+    
+    font-size: $button-small__font-size;
+    font-family: $font__family-light;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    align-items: flex-start;
+    
+    &:hover,
+    &:active,
+    &:focus {
+        background: none;
+        border: 0;
+    }
+}

@@ -1,0 +1,92 @@
+@mixin lib-icon-font-color(
+    $_icon-font-color,
+    $_icon-font-position: $icon-font__position
+) {
+    @if $_icon-font-position == after {
+        &:after {
+            color: $_icon-font-color;
+        }
+    } @else {
+        &:before {
+            color: $_icon-font-color;
+        }
+    }
+}
+
+@mixin lib-icon-font-margin(
+    $_icon-font-margin,
+    $_icon-font-position: $icon-font__position
+) {
+    @if $_icon-font-position == after {
+        &:after {
+            margin: $_icon-font-margin;
+        }
+    } @else {
+        &:before {
+            margin: $_icon-font-margin;
+        }
+    }
+}
+
+@mixin lib-icon-font-symbol(
+    $_icon-font-content,
+    $_icon-font-size: $icon-font__size,
+    $_icon-font-position: $icon-font__position,
+    $_icon-font-color: false
+) {
+    @if $_icon-font-position == after {
+        &:after {
+            font-size: $_icon-font-size;
+            content: $_icon-font-content;
+            @if $_icon-font-color {
+                color: $_icon-font-color;
+            }
+        }
+    } @else {
+        &:before {
+            font-size: $_icon-font-size;
+            content: $_icon-font-content;
+            @if $_icon-font-color {
+                color: $_icon-font-color;
+            }
+        }
+    }
+}
+
+@mixin lib-icon-font-base(
+    $_icon-font-color: $icon-font__color,
+    $_icon-font-position: $icon-font__position,
+    $_icon-font-display: $icon-font__display
+) {
+    pointer-events: none;
+    align-items: center;
+    display: $_icon-font-display;
+    @if $_icon-font-position == after {
+        &:after {
+            @include _lib-icon-font(
+                            $_icon-font-color,
+                            $_icon-font-display);
+        }
+    } @else {
+        &:before {
+            @include _lib-icon-font(
+                            $_icon-font-color,
+                            $_icon-font-display
+            );
+        }
+    }
+}
+
+
+@mixin _lib-icon-font(
+    $_icon-font-color,
+    $_icon-font-display
+) {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: $_icon-font-display;
+    color: $_icon-font-color;
+    font-family: $icon-font;
+    overflow: visible;
+    speak: none;
+}

@@ -1,0 +1,40 @@
+.container {
+    &-absolute-max {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+    }
+    
+    &-flex-centered {
+        justify-content: center;
+        display: flex;
+    }
+    
+    &-left-large {
+        width: 70%;
+    }
+    
+    &-right-small {
+        width: 30%;
+    }
+    
+    &-button {
+        display: flex;
+        justify-content: space-between;
+        
+        &-down {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+        }
+        
+        button {
+            flex: 1 1 0;
+            
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+}

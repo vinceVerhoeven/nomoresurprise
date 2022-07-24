@@ -1,0 +1,24 @@
+.timeline {
+    display: flex;
+    button {
+        flex: 1 1 0;
+        margin: 0;
+        
+        @include lib-btn-secondary(
+                $_btn-font-size: $timeline__font-size,
+                $_btn-border-radius: 0,
+                $_btn-padding: $timeline__padding
+        );
+
+        &:first-child {
+            border-top-left-radius: $timeline__border-radius;
+            border-bottom-left-radius: $timeline__border-radius;
+        }
+    
+        &:last-child {
+            border-top-right-radius: $timeline__border-radius;
+            border-bottom-right-radius: $timeline__border-radius;
+            font-size: $timeline-last-item__font-size;
+        }
+    }
+}

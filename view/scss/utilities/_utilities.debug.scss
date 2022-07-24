@@ -1,0 +1,54 @@
+body {
+    &:after {
+        background: green;
+        bottom: 0;
+        color: white;
+        display: block;
+        font-weight: 700;
+        padding: 5px 10px;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        z-index: 9999;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    body {
+        &:after {
+            content: "max sm";
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    body {
+        &:after {
+            content: "max xs";
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    body {
+        &:after {
+            content: "min md";
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        &:after {
+            content: "min lg";
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .page-wrapper {
+        &:after {
+            content: "min xl";
+        }
+    }
+}

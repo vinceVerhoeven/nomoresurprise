@@ -1,0 +1,14 @@
+$card__background: $color-surface;
+$card__margin: 0 0 8px 0;
+$card__display: flex;
+$card__box-shadow:   rgba(0, 0, 0, 0.15) 0 3px 3px 0;
+$card__animation: fadeIn;
+
+$card-desktop__padding: 20px 15px;
+$card-desktop-title__font-size:  $font__size-large;
+$card-desktop-sub-title__font-size: $font__size-small;
+$card-desktop-details__font-size: $font__size-small;
+
+$card-mobile__padding: 10px 15px;
+$card-mobile-title__font-size: 2rem;
+$card-mobile-details__font-size: $font__size-extra-small;

@@ -1,0 +1,38 @@
+@include keyframes(slideUpSideBar) {
+    0% {
+        height: $sidebar-small__height;
+    }
+    100% {
+        height: $sidebar-small-active__height;
+    }
+}
+
+@include keyframes(slideDownSideBar) {
+    0% {
+        height: $sidebar-small-active__height;
+    }
+    100% {
+        height: $sidebar-small__height;
+    }
+}
+
+@include keyframes(fadeIn) {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes MoveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,49 @@
+@mixin lib-reset-link(
+    $_link__color: $link__color,
+    $_link__text-decoration: $link__text-decoration,
+    $_link__active__color: $link__color,
+    $_link__hover__color: $link__hover__color,
+    $_link__visited__color: $link__visited__color
+) {
+    color: $_link__color;
+    text-decoration: $_link__text-decoration;
+    &:hover {
+        color: $_link__hover__color;
+    }
+    &:active {
+        color: $_link__active__color;
+    }
+    &:visited {
+        color: $_link__hover__color;
+    }
+}
+
+@mixin lib-typography(
+    $_font-size:   $font__size-base,
+    $_font-color:  $text__color,
+    $_font-family: $font__family-base,
+    $_font-weight: $font__weight-regular,
+) {
+    font-size: $_font-size;
+    color: $_font-color;
+    font-family: $_font-family;
+    font-weight: $_font-weight;
+}
+
+@mixin lib-font-face(
+    $family-name,
+    $font-path,
+    $font-ext,
+    $font-format,
+    $font-weight: normal,
+    $font-style: normal,
+    $font-display: swap
+) {
+    @font-face {
+        font-family: $family-name;
+        src: url('#{$font-path}#{$family-name}.#{$font-ext}') format($font-format);
+        font-weight: $font-weight;
+        font-style: $font-style;
+        font-display: $font-display;
+    }
+}

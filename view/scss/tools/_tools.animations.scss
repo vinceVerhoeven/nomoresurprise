@@ -1,0 +1,30 @@
+@mixin animate($animation,$duration,$method, $times, $fill) {
+    animation: $animation $duration $method $times $fill;
+}
+
+@mixin keyframes($name) {
+    @keyframes #{$name}{
+        @content;
+    }
+}
+
+@mixin lib-animation-shine() {
+    &:after {
+        content: "";
+        background: $color-surface;
+        height: 155px;
+        left: -75px;
+        opacity: .1;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+        width: 50px;
+    }
+    &:hover {
+        &:after {
+            left: 120%;
+            transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        }
+    }
+}

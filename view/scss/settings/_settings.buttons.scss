@@ -1,0 +1,21 @@
+$button__padding: 8px 20px;
+$button__radius: 20px;
+$button__family: $font__family-bold;
+$button__box-shadow:  rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+$button__font-size: $font__size-medium;
+$button-small__font-size: $font__size-small;
+$button-small__padding: 6px 10px;
+
+$button-round__width: 40px;
+
+$button-primary__background: $color-primary-dark;
+$button-primary__color: $color-primary-text;
+$button-primary__border-radius: $button__radius;
+$button-primary__hover__background: $color-primary-light;
+$button-primary__hover__color: $color-primary-text;
+
+$button-secondary__background: $color-secondary-dark;
+$button-secondary__color: $color-secondary-text;
+$button-secondary__border-radius: $button__radius;
+$button-secondary__hover__background: $color-secondary-light;
+$button-secondary__hover__color: $color-secondary-text;

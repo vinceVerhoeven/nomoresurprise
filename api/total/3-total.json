@@ -1,0 +1,17 @@
+{
+  "jams": {
+    "distance": 500,
+    "delay": 400,
+    "count": 12
+  },
+  "roadwork": {
+    "distance": 300,
+    "delay": 0,
+    "count": 9
+  },
+  "all": {
+    "distance": 4800,
+    "delay": 0,
+    "count": 21
+  }
+}

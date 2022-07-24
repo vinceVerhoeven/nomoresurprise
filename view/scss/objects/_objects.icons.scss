@@ -1,0 +1,55 @@
+.icon {
+    @include lib-icon-font-base();
+    
+    &.icon-before {
+        @include lib-icon-font-margin($icon-font__before-margin) ;
+        
+    }
+    
+    &.icon-after {
+        @include lib-icon-font-margin($icon-font__after-margin) ;
+    }
+    
+    &.icon-jam {
+        @include lib-icon-font-symbol(
+                        $icon-car-sideview,
+                $_icon-font-size: 2.5rem,
+        );
+    }
+    
+    &.icon-wrench {
+        @include lib-icon-font-symbol(
+                        $icon-wrench,
+                $_icon-font-size: 2rem,
+        );
+    }
+    
+    &.icon-constructor {
+        @include lib-icon-font-symbol(
+                        $icon-constructor,
+                $_icon-font-size: 2rem,
+        );
+    }
+    
+    &.icon-info {
+        @include lib-icon-font-symbol(
+                        $icon-info-circle,
+                $_icon-font-size: 2rem,
+        );
+    }
+    
+    &.icon-sad {
+        @include lib-icon-font-symbol(
+                        $icon-sad-squint,
+                $_icon-font-size: 2rem,
+        );
+    }
+    
+    &.icon-crosshair {
+        @include lib-icon-font-symbol(
+                        $icon-crosshair,
+                $_icon-font-size: 2rem,
+        );
+    }
+    
+}

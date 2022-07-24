@@ -1,0 +1,119 @@
+.sidebar {
+    z-index: $sidebar__z-index;
+    position: absolute;
+    
+    &-wrapper {
+        overflow: hidden;
+        height: 100%;
+        
+        &-middle {
+            background-color: $color-surface-secondary;
+            color: $color-on-surface;
+            
+            .icon {
+                @include lib-icon-font-color($color-on-surface);
+            }
+            
+            .container-button {
+                justify-content: space-evenly;
+            }
+        }
+        
+        &-bottom {
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            height: 70%;
+            background-color: transparentize(lighten($color-on-surface, 40%), 0.3);
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .sidebar {
+        width: 100%;
+        bottom: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+        &:not(.active) {
+            @include animate(slideDownSideBar, 0.5s, ease-out, 1, forwards)
+        }
+        
+        &.active {
+            @include animate(slideUpSideBar, 0.5s, ease-out, 1, forwards)
+        }
+        
+        &-wrapper {
+            &-top {
+                padding: 10px $layout-sm__padding-left 15px $layout-sm__padding-right;
+                background-color: darken($color-on-surface, 10%);
+                
+                .container-button-down {
+                    position: absolute;
+                    top: -50px;
+                    right: $layout-sm__padding-right;
+                }
+                
+                .btn-toggle {
+                    @include animate(MoveUpDown, 1s, linear, 4s, 4);
+                }
+                
+                .container-button {
+                    margin: 0 0 15px 0;
+                }
+            }
+            
+            &-middle {
+                padding: 5px $layout-sm__padding-right 5px $layout-sm__padding-left;
+            }
+            
+            &-bottom {
+                padding: 10px $layout-sm__padding-right 100px $layout-sm__padding-left;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .sidebar {
+        height: 100%;
+        width: 380px;
+        top: 0;
+        left: 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+        .logo-wrapper {
+            .logo {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        
+        .container-timeline {
+            margin: 0 0 10px 0;
+        }
+        
+        &-wrapper {
+            &-top {
+                background-color: darken($color-secondary-dark, 5%);
+                padding: 20px $layout-md__padding-right 30px $layout-md__padding-left;
+                
+                .container-button {
+                    margin: 30px 0 20px 0;
+                }
+            }
+            
+            &-middle {
+                .container-button {
+                    padding: 10px $layout-md__padding-right 10px $layout-md__padding-left;
+                }
+            }
+            
+            &-bottom {
+                padding: 20px $layout-md__padding-right 100px $layout-md__padding-left;
+            }
+        }
+    }
+}

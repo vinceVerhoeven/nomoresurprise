@@ -1,0 +1,212 @@
+{
+  "jams": [
+    {
+      "id": 17786959,
+      "road": "N50",
+      "segmentId": 3343,
+      "codeDirection": 1,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "Kampen",
+      "fromLoc": {
+        "lat": 52.55471,
+        "lon": 5.88169
+      },
+      "to": "Ens",
+      "toLoc": {
+        "lat": 52.63814,
+        "lon": 5.81559
+      },
+      "polyline": "ezv_Iqq|b@GHc@j@m@h@QRY\\}@dAw@x@q@r@k@n@e@h@k@l@i@l@EDOPoAtAuBdCQR[^UVSTUV_BfBMNkApAuB`CkEvEwA~Ac@f@YXUVSRQRi@l@sChDm@p@cBfBc@d@s@r@_@b@e@h@cDrD}@bA_DnDcAfAwB`CgBpBiCtCuA~A_FtFsB~BgBpB}EpFuB|BiBlByBrBq@n@q@l@wCzBeD~BmF~Cs@^i@VOHYLcAb@gAb@c@PcA^i@POFUF{@Vm@PcAXiBb@uB`@}AVoARaAL]DkAPoB^eCX_AJG@gANgALcD`@y@L}APkAN}@JeBTe@Fg@DqC\\iAN{Ej@}Ep@yEv@{EdAiCv@sAb@{EnByEbCqAt@eAn@aAp@kCjBgA|@g@b@a@\\qBdB_@Zm@j@cA|@{@x@}@x@iAdAiAdAkAdAuAnAED_@\\yBpBwBnBaBzAsAlAoAhAmAhA}@|@w@p@c@ReA`AUP]Vs@h@_An@{@h@_@R_@PkFdCyUbKEBSHaBr@gCfAw@\\}Ap@aAb@QHuElByBdASH_HlC{HpDuFjDaGxEgGvFqFjFwHnHsAbByBzBgAjAu@r@_A~@m@n@s@t@sAvAmAnAuAzAuAxAqAvAaBdBsAzA}@bA{AfBu@~@u@bAq@|@o@~@y@nAi@z@m@bA{@zAk@dAm@jAs@xAu@`Bo@tAi@pAu@bBs@bBo@xAu@~Aa@z@{@`Bm@bAg@v@m@|@q@|@a@f@WZY\\s@z@s@t@c@`@_@\\IFoDvC_@XmAn@sDxAqBh@mB`@gATi@HcBXgAR",
+      "bounds": {
+        "southWest": {
+          "lat": 52.55091,
+          "lon": 5.81349
+        },
+        "northEast": {
+          "lat": 52.64284,
+          "lon": 5.88585
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "stop": "2022-07-21T03:00:00Z",
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17787053,
+      "road": "A1",
+      "segmentId": 3001,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Voorthuizen",
+      "fromLoc": {
+        "lat": 52.16876,
+        "lon": 5.59499
+      },
+      "to": "Stroe",
+      "toLoc": {
+        "lat": 52.19165,
+        "lon": 5.70158
+      },
+      "polyline": "}gl}Hwqea@Ae@EuAC}@KsDCaAAWCq@Cg@ImCEoAEuAKmDWaHEsAEyAO_EG{AEaACm@Eu@M}CKuBEiAq@oNKiBIsAEu@e@{IKmBK_Bc@kHIwAKaBGeACWWcE_@sFWoDOwBIcAY{DEi@CYEk@KkAOiB?E",
+      "bounds": {
+        "southWest": {
+          "lat": 52.16911,
+          "lon": 5.60428
+        },
+        "northEast": {
+          "lat": 52.17194,
+          "lon": 5.63157
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 1300
+        }
+      ],
+      "distance": 1300,
+      "delay": 180,
+      "start": "2022-07-20T19:28:00Z"
+    },
+    {
+      "id": 17787001,
+      "road": "N326",
+      "segmentId": 3264,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Beuningen",
+      "fromLoc": {
+        "lat": 51.82874,
+        "lon": 5.82245
+      },
+      "to": "Wijchen",
+      "toLoc": {
+        "lat": 51.82503,
+        "lon": 5.79177
+      },
+      "polyline": "svi{Hqzob@l@nAn@pAz@`Cn@~Bd@vB\\zBXtC~@bMl@rJPpETzJ?@",
+      "bounds": {
+        "southWest": {
+          "lat": 51.82619,
+          "lon": 5.80958
+        },
+        "northEast": {
+          "lat": 51.82842,
+          "lon": 5.82073
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 800
+        }
+      ],
+      "distance": 800,
+      "delay": 300,
+      "start": "2022-07-20T18:43:30Z"
+    },
+    {
+      "id": 17787060,
+      "road": "N388",
+      "segmentId": 5332,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Niezijl",
+      "fromLoc": {
+        "lat": 53.2641,
+        "lon": 6.31939
+      },
+      "to": "Grootegast",
+      "toLoc": {
+        "lat": 53.22109,
+        "lon": 6.31482
+      },
+      "polyline": "{w_dIm~oe@~@CvEOh@EZ?r@Hn@BR@NAXOx@MVE\\Gr@MXEREjAEd@AxBGlL[nOu@rKs@hNc@pOWb@A~G]",
+      "bounds": {
+        "southWest": {
+          "lat": 53.23366,
+          "lon": 6.31287
+        },
+        "northEast": {
+          "lat": 53.25198,
+          "lon": 6.31449
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 400
+        }
+      ],
+      "distance": 400,
+      "delay": 180,
+      "start": "2022-07-20T19:32:30Z"
+    },
+    {
+      "id": 17787058,
+      "road": "N683",
+      "segmentId": 6320,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 4,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "de aansluiting met de N62",
+      "fromLoc": {
+        "lat": 51.22589,
+        "lon": 3.83842
+      },
+      "to": "Sas van Gent",
+      "toLoc": {
+        "lat": 51.23003,
+        "lon": 3.8013
+      },
+      "polyline": "kptwHsfhVADIp@SrAIp@YpCYjFIrAYtEc@jII~AE|@?@",
+      "bounds": {
+        "southWest": {
+          "lat": 51.22838,
+          "lon": 3.80881
+        },
+        "northEast": {
+          "lat": 51.22929,
+          "lon": 3.81562
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 400
+        }
+      ],
+      "distance": 400,
+      "delay": 360,
+      "start": "2022-07-20T19:32:00Z"
+    }
+  ]
+}

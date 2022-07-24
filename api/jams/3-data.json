@@ -1,0 +1,518 @@
+{
+  "jams": [
+    {
+      "id": 17800109,
+      "road": "A4",
+      "segmentId": 3300,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Badhoevedorp",
+      "fromLoc": {
+        "lat": 52.32863,
+        "lon": 4.79537
+      },
+      "to": "knp. Badhoevedorp",
+      "toLoc": {
+        "lat": 52.32863,
+        "lon": 4.79537
+      },
+      "polyline": "awj~Hcyc\\Dl@B^HhA@N@NJbB@J@PFv@NhCB\\Dj@Dr@NhC@NJfB@P?HJfB@PDz@@PDj@@P@PFdA@PDh@F~@@T@PH~@Fv@Dd@D^Fp@JdADXFl@Fh@Hp@Hh@L`ATxAdA~GHd@Hb@@F",
+      "bounds": {
+        "southWest": {
+          "lat": 52.32317,
+          "lon": 4.76364
+        },
+        "northEast": {
+          "lat": 52.32513,
+          "lon": 4.77602
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17800093,
+      "road": "A9",
+      "segmentId": 3461,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Badhoevedorp naar de A4 richting Amsterdam",
+      "fromLoc": {
+        "lat": 52.33025,
+        "lon": 4.79958
+      },
+      "to": "knp. Badhoevedorp naar de A4 richting Amsterdam",
+      "toLoc": {
+        "lat": 52.33025,
+        "lon": 4.79958
+      },
+      "polyline": "wnj~H}fi\\QPk@z@KJEHOV{@~A[j@OZWd@MXe@lAUj@]v@_@r@]j@c@j@]b@]`@i@h@YTa@VYPu@\\ULe@P}@Rm@Ha@B{@Ay@Ce@Ac@A[Ao@Em@IUGSGQIQIUOQOOQMOMMMSUW",
+      "bounds": {
+        "southWest": {
+          "lat": 52.3238,
+          "lon": 4.7991
+        },
+        "northEast": {
+          "lat": 52.33071,
+          "lon": 4.80383
+        }
+      },
+      "events": [
+        {
+          "alertC": 478,
+          "text": "Verbindingsweg dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Verbindingsweg dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17803440,
+      "road": "A9",
+      "segmentId": 3461,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "knp. Velsen",
+      "fromLoc": {
+        "lat": 52.44144,
+        "lon": 4.66828
+      },
+      "to": "knp. Rottepolderplein",
+      "toLoc": {
+        "lat": 52.38439,
+        "lon": 4.70737
+      },
+      "polyline": "wqa_Iutn[PGp@Ul@Ub@Qh@Ux@_@r@]d@Wj@[^S^Uh@[h@]j@_@^Y|@o@ROLK\\WHGXUTOXUXYNOVURQh@e@VYVYh@k@FGNQhCoCb@e@NQv@{@nAuA~BcCdAgAlDyDx@}@`AeA|@_A`AeAr@s@t@w@n@s@VWn@q@t@w@j@m@bAeAd@g@lBqB`@c@TW\\_@n@s@`@c@^c@NQZ_@p@y@d@k@`@i@d@o@v@eAFI`@i@`@k@Zc@Xe@p@eA|@yA^m@^o@b@u@Ve@t@wAl@kAj@kAb@}@Ti@j@mAl@qAn@wAj@sAXm@^y@f@iAn@wAZq@P_@h@mAb@_AXo@P]BG\\q@b@_Ad@}@FMVe@LU^o@^o@`@q@JQHMd@u@RYNWJMNSLQDGDGNSNQTYf@o@Za@d@m@lAwAJK\\_@RUfAgAn@m@NM",
+      "bounds": {
+        "southWest": {
+          "lat": 52.41748,
+          "lon": 4.66779
+        },
+        "northEast": {
+          "lat": 52.44204,
+          "lon": 4.69634
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 2400
+        }
+      ],
+      "distance": 2400,
+      "delay": 300,
+      "start": "2022-07-23T17:05:00Z"
+    },
+    {
+      "id": 17800168,
+      "road": "A10",
+      "segmentId": 3017,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. De Nieuwe Meer",
+      "fromLoc": {
+        "lat": 52.33803,
+        "lon": 4.84207
+      },
+      "to": "Amsterdam-Buitenveldert",
+      "toLoc": {
+        "lat": 52.33505,
+        "lon": 4.89446
+      },
+      "polyline": "gtm~Happ\\XCd@Gn@Kp@Md@Ib@K\\MTKHENIPM\\YNOV[PWR]N[JWHUL]La@RaAHe@Fe@De@@IB]Fq@@_@@a@@k@@q@?aA?e@?c@FcACg@EuB?O?CASAc@Ck@A[Ai@?U?M?KI}CCcAAc@?WEiDG_D?k@Aa@Cq@EsBC_AAUEcC?MAWCg@Co@Ay@Cs@E}BCw@A_@Ae@CqBEuBCq@?OAg@Cu@CgBAYC}@Ag@GkCCqACm@Ak@A]GmBCc@E{BAe@Ag@A{@Ao@EuCK{FAy@?QAc@?QAk@AQAk@AQAk@Ai@?QEcCGwCAq@Ai@CwACuA_@gWEiGEiH?c@?G?C?Y?G?C?Y?_@?Q?c@?Q?}A?W?S?uA?Q?o@?wA?]?U?aA?sA@sA@k@?Q?u@?O?k@@_A?Q?c@?Q?Y@}@B}@@g@@S?MB}@Bs@Dq@?AB[@MDc@BUDk@LoAHm@Da@LaAFa@D[F[Nw@Nw@FWNo@Pu@T{@\\gAXq@Na@L[Na@HWN_@f@sAL]DIDMJ[DIN_@BIBEHQJ[Pe@b@kAN_@fAuCTk@|@}BRg@tAmDVq@Na@v@oBj@yAVo@J[dAkCFQ@C",
+      "bounds": {
+        "southWest": {
+          "lat": 52.33328,
+          "lon": 4.84113
+        },
+        "northEast": {
+          "lat": 52.34004,
+          "lon": 4.89682
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "stop": "2022-08-03T03:00:00Z",
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17800426,
+      "road": "A20",
+      "segmentId": 3123,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Kethelplein",
+      "fromLoc": {
+        "lat": 51.92562,
+        "lon": 4.36577
+      },
+      "to": "Maassluis",
+      "toLoc": {
+        "lat": 51.92419,
+        "lon": 4.27212
+      },
+      "polyline": "ox|{H{}uYHjE@p@DzA@|@DxBBl@?t@D~BBlADpE@nA@l@?b@@l@?N?L?T?N?^@l@?X@p@?|@?d@@xA@bA?d@?b@?Z?\\?v@?d@?f@?l@?l@?b@?X?b@?`@?Z?\\?P?J?P@vA?D?v@@l@?j@@|@@p@?H?V@PDtBBh@DdADp@@VBXBVDh@Db@JbAl@lFHp@Fd@PlAFb@TzAZvBT~ALx@DVPjANdAT|AHd@Fd@Lz@DVDTHh@Jl@F^Jv@DTJt@RlAZxBDZ@DJp@BLJp@DXF^Lz@NdABPL~@BL\\~BNdABPFd@Lz@Hj@NbAPfAN`ADT@JF^BN@HJp@Hd@Jp@Jn@V`BLz@N`AHh@V`BBPF`@PjAt@vEF`@Jl@Hj@Hf@Jn@BR@HF\\Hf@F^Hf@N`ABRRpAPjAD\\DXHf@F`@D\\Jp@RnAJr@F`@Hh@NdAV`BJp@VbBBLHd@Jh@@FZvBDZD\\TzAHd@BTDPF^F`@TtAFd@PlAJr@BPBPDXBLHh@F`@T|ARtANlANlADd@DXBNDh@H|@Dh@BV@TDz@Bl@Bj@?FBv@BfABzA?d@?T?^?X?dA?L?n@A`A?T?J?L?VAt@C~@A\\Cn@Cf@Cb@Ep@Ej@C\\Cj@C^APAR?BCVC`@Ed@AREj@Gt@Cb@IhAEt@CTC\\C\\CZC\\InACZEf@?HEd@Et@APAJAJANEr@ALCd@CZCVCXEp@IjAGt@QvBGt@CXOvBEh@CZEj@C\\C`@Cj@IlAGv@Eh@CZCVC\\IjAMlBEn@InAUlDS~CMdBC^KtAIfA?DG~@ATEl@Cd@El@OvBMhBG|@G~@Ep@CVCZEp@IjAATCRGz@G~@CZCf@ANARAFOrBEh@ATALSbDSzCGp@QrCAPEf@Ej@IhAC`@Et@ARGt@KfB?DIrAUzCK`BMfBGbAIdAEn@AZG|@ItAOlBOzBCVKxAEx@MlBOlBUhDQnCq@fKGz@MnBKbBG`AC`@IfAIdAC^MtBEl@GhASvCEf@SxCG~@En@SnCCXCTg@vIC^Cd@GjAKjBIxAKnBIfAQpCIdAQnBIz@MfAIr@Gr@SxAEVE`@G`@Kn@Kj@GZI^Y|Aa@hBYlAa@|AIZIXERK^CH",
+      "bounds": {
+        "southWest": {
+          "lat": 51.91759,
+          "lon": 4.26697
+        },
+        "northEast": {
+          "lat": 51.926,
+          "lon": 4.37742
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 329861586,
+      "road": "A20",
+      "segmentId": 3123,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Kethelplein",
+      "fromLoc": {
+        "lat": 51.92562,
+        "lon": 4.36577
+      },
+      "to": "Maassluis",
+      "toLoc": {
+        "lat": 51.92419,
+        "lon": 4.27212
+      },
+      "polyline": "ox|{H{}uYHjE@p@DzA@|@DxBBl@?t@D~BBlADpE@nA@l@?b@@l@?N?L?T?N?^@l@?X@p@?|@?d@@xA@bA?d@?b@?Z?\\?v@?d@?f@?l@?l@?b@?X?b@?`@?Z?\\?P?J?P@vA?D?v@@l@?j@@|@@p@?H?V@PDtBBh@DdADp@@VBXBVDh@Db@JbAl@lFHp@Fd@PlAFb@TzAZvBT~ALx@DVPjANdAT|AHd@Fd@Lz@DVDTHh@Jl@F^Jv@DTJt@RlAZxBDZ@DJp@BLJp@DXF^Lz@NdABPL~@BL\\~BNdABPFd@Lz@Hj@NbAPfAN`ADT@JF^BN@HJp@Hd@Jp@Jn@V`BLz@N`AHh@V`BBPF`@PjAt@vEF`@Jl@Hj@Hf@Jn@BR@HF\\Hf@F^Hf@N`ABRRpAPjAD\\DXHf@F`@D\\Jp@RnAJr@F`@Hh@NdAV`BJp@VbBBLHd@Jh@@FZvBDZD\\TzAHd@BTDPF^F`@TtAFd@PlAJr@BPBPDXBLHh@F`@T|ARtANlANlADd@DXBNDh@H|@Dh@BV@TDz@Bl@Bj@?FBv@BfABzA?d@?T?^?X?dA?L?n@A`A?T?J?L?VAt@C~@A\\Cn@Cf@Cb@Ep@Ej@C\\Cj@C^APAR?BCVC`@Ed@AREj@Gt@Cb@IhAEt@CTC\\C\\CZC\\InACZEf@?HEd@Et@APAJAJANEr@ALCd@CZCVCXEp@IjAGt@QvBGt@CXOvBEh@CZEj@C\\C`@Cj@IlAGv@Eh@CZCVC\\IjAMlBEn@InAUlDS~CMdBC^KtAIfA?DG~@ATEl@Cd@El@OvBMhBG|@G~@Ep@CVCZEp@IjAATCRGz@G~@CZCf@ANARAFOrBEh@ATALSbDSzCGp@QrCAPEf@Ej@IhAC`@Et@ARGt@KfB?DIrAUzCK`BMfBGbAIdAEn@AZG|@ItAOlBOzBCVKxAEx@MlBOlBUhDQnCq@fKGz@MnBKbBG`AC`@IfAIdAC^MtBEl@GhASvCEf@SxCG~@En@SnCCXCTg@vIC^Cd@GjAKjBIxAKnBIfAQpCIdAQnBIz@MfAIr@Gr@SxAEVE`@G`@Kn@Kj@GZI^Y|Aa@hBYlAa@|AIZIXERK^CH",
+      "bounds": {
+        "southWest": {
+          "lat": 51.91759,
+          "lon": 4.26697
+        },
+        "northEast": {
+          "lat": 51.926,
+          "lon": 4.37742
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        }
+      ],
+      "start": "2022-07-22T20:00:00Z",
+      "stop": "2022-07-25T03:00:00Z",
+      "reason": "Dicht. Van 22 juli 2022 22:00 uur tot 25 juli 2022 05:00 uur."
+    },
+    {
+      "id": 17790352,
+      "road": "N7",
+      "segmentId": 3412,
+      "codeDirection": 1,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "Groningen-Zuidoost",
+      "fromLoc": {
+        "lat": 53.21149,
+        "lon": 6.58856
+      },
+      "to": "knp. Euvelgunne",
+      "toLoc": {
+        "lat": 53.21693,
+        "lon": 6.61843
+      },
+      "polyline": "suwcIckeg@CKI]Mk@Kq@Ki@EWKq@Ga@Ia@Kg@Ia@Qo@IYIUGSSm@c@wAWaA}@uCm@kBEMSo@Oe@Qm@GWEMEU[_BESAICMCSIq@Gs@Ec@Ce@Cc@Cg@AWAYAs@?W?SAW?YCg@Cw@C_@CUASAUCOEm@Ee@UsBIw@Io@CQGi@Ea@CQOuACQE_@E[COKw@UuBQ{AUsBWwBKaAEc@EUAGE[E_@COIi@Ko@I_@EWI_@S_AQs@Qq@EMSq@GSQk@Qi@[cAMc@a@mAYaAc@{AEOGSMe@Kc@UaAKc@CKCKACOw@COESCMOy@COEYOaAa@yBo@mEOmAUcDEs@CiACk@Au@?w@?u@B{@Bs@Bc@Dw@LuBLeBJiBJ}ALsBLoBBWB[NwBF}@PgBLkAL_AL{@Hg@F]Ha@FSFQLYHMDGHIJIPIPGTATBPFRLTTLTLZJ\\D^D\\@X?NAf@CTANGZMb@GPKPW\\KLGF[X",
+      "bounds": {
+        "southWest": {
+          "lat": 53.21066,
+          "lon": 6.58626
+        },
+        "northEast": {
+          "lat": 53.21762,
+          "lon": 6.62219
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        },
+        {
+          "alertC": 115,
+          "text": "Langzaam rijdend verkeer",
+          "distance": 0
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17794258,
+      "road": "N7",
+      "segmentId": 3412,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Euvelgunne",
+      "fromLoc": {
+        "lat": 53.21693,
+        "lon": 6.61843
+      },
+      "to": "Groningen-Zuidoost",
+      "toLoc": {
+        "lat": 53.21149,
+        "lon": 6.58856
+      },
+      "polyline": "}_xcIwqlg@cAjAs@f@WPmAjA{@p@g@ZSFSDQBYBS?m@Ee@KYKQIe@]SOe@]SKOGYEW@OBUFSJQNQVMTM`@GTGVMp@YvBMbAKfAOxAIz@KxACTEf@Ep@Ed@UpDQdCEh@ItACb@C^IvAEdACf@IvA?|B?n@@b@@n@D~@B\\B^Bt@D\\Fh@D^BNHn@@HD^Jl@Hl@Hf@Hd@F\\PdAV|AP`APbAVfAFVBNDNJd@Rv@H^FTNf@Lb@Nf@h@fBh@dBd@vAJ`@FRLb@FTJ^J^ZjAJ^Pr@VjAJl@F\\F\\Hf@DTJx@@JHp@LbAHp@J~@BRLhATvBbBjOD^LnA@NBRDb@B^B`@?D@V?FBr@@\\@X?V?P?N@j@?F?T?T@b@@`@Bh@B^J`AJx@BRJr@H\\H\\J`@dAxDLb@l@hBfAfDLd@Rl@Tr@Ph@^lAJ\\FXF\\Nr@Jd@Hd@H^^rBFZFZZhAFTHVL`@Vt@",
+      "bounds": {
+        "southWest": {
+          "lat": 53.2103,
+          "lon": 6.58494
+        },
+        "northEast": {
+          "lat": 53.21778,
+          "lon": 6.62316
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17803445,
+      "road": "N523",
+      "segmentId": 5850,
+      "codeDirection": 1,
+      "type": "n",
+      "afrc": 4,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Nederhorst-Den Berg",
+      "fromLoc": {
+        "lat": 52.27113,
+        "lon": 5.04671
+      },
+      "to": "Weesp",
+      "toLoc": {
+        "lat": 52.29094,
+        "lon": 5.07569
+      },
+      "polyline": "kua~Hktz]??oFwb@Kw@?AC_@COAW@G@WBq@@[@U?KFqBBgAAm@?A",
+      "bounds": {
+        "southWest": {
+          "lat": 52.27878,
+          "lon": 5.05686
+        },
+        "northEast": {
+          "lat": 52.28009,
+          "lon": 5.06512
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 600
+        }
+      ],
+      "distance": 600,
+      "delay": 180,
+      "start": "2022-07-23T17:10:30Z"
+    },
+    {
+      "id": 17803403,
+      "road": "Den Haag",
+      "segmentId": 28110,
+      "codeDirection": 1,
+      "type": "other",
+      "afrc": 5,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "de Waalsdorperweg",
+      "fromLoc": {
+        "lat": 52.0967,
+        "lon": 4.30684
+      },
+      "to": "de Gevers Deynootweg",
+      "toLoc": {
+        "lat": 52.11402,
+        "lon": 4.28411
+      },
+      "location": "Plesmanweg/Harstenhoekstraat",
+      "polyline": "so`}HmldYGFmAbBU^WTMd@YjASdAc@hB[hACHSl@EJ]n@i@l@MHGDKBMCYFM@S?MAQEOESMY_@SOIPe@dAiAfCIPILIPEJ",
+      "bounds": {
+        "southWest": {
+          "lat": 52.1089,
+          "lon": 4.28297
+        },
+        "northEast": {
+          "lat": 52.11259,
+          "lon": 4.28759
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 500
+        }
+      ],
+      "distance": 500,
+      "delay": 300,
+      "start": "2022-07-23T16:39:00Z"
+    },
+    {
+      "id": 17803424,
+      "road": "Den Haag",
+      "segmentId": 28093,
+      "codeDirection": 1,
+      "type": "other",
+      "afrc": 5,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "de Oude Waalsdorperweg",
+      "fromLoc": {
+        "lat": 52.10404,
+        "lon": 4.31723
+      },
+      "to": "de Gevers Deynootweg",
+      "toLoc": {
+        "lat": 52.11455,
+        "lon": 4.28504
+      },
+      "location": "Van Alkemadelaan/Zwolsestraat",
+      "polyline": "gga}HczeYGd@CPGJk@vDGb@CP?BKj@CPCJO~A@NYfEYjEu@tKGv@CRIVGb@K|@WrBIpAIvACh@CN?@ENA@i@bAINOXGJ",
+      "bounds": {
+        "southWest": {
+          "lat": 52.11268,
+          "lon": 4.28495
+        },
+        "northEast": {
+          "lat": 52.11465,
+          "lon": 4.2949
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 700
+        }
+      ],
+      "distance": 700,
+      "delay": 600,
+      "start": "2022-07-23T16:53:30Z"
+    },
+    {
+      "id": 17803447,
+      "road": "Den Haag",
+      "segmentId": 28093,
+      "codeDirection": 0,
+      "type": "other",
+      "afrc": 5,
+      "category": "jams",
+      "incidentType": "queing-traffic",
+      "from": "de Gevers Deynootweg",
+      "fromLoc": {
+        "lat": 52.11455,
+        "lon": 4.28504
+      },
+      "to": "de Oude Waalsdorperweg",
+      "toLoc": {
+        "lat": 52.10404,
+        "lon": 4.31723
+      },
+      "location": "Zwolsestraat/Van Alkemadelaan",
+      "polyline": "yra}H{zcYTk@DKRc@Xk@FSDQBW@WH{ADs@Bg@PkBLaABa@C_@BSFw@t@uKXkEXgEFKRwATqADU",
+      "bounds": {
+        "southWest": {
+          "lat": 52.11293,
+          "lon": 4.28478
+        },
+        "northEast": {
+          "lat": 52.11453,
+          "lon": 4.29346
+        }
+      },
+      "events": [
+        {
+          "alertC": 108,
+          "text": "Langzaam rijdend tot stilstaand verkeer",
+          "distance": 600
+        }
+      ],
+      "distance": 600,
+      "delay": 180,
+      "start": "2022-07-23T17:10:00Z"
+    }
+
+  ]
+}

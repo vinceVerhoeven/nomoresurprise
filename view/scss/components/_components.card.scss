@@ -1,0 +1,114 @@
+.card {
+    order: 1;
+    background-color: $card__background;
+    margin: $card__margin;
+    display: $card__display;
+    box-shadow: $card__box-shadow;
+    @include animate($card__animation, 0.3s, linear, 1, forwards);
+    
+    &-info {
+        display: flex;
+        font-family: $font__family-regular;
+        flex-direction: column;
+        
+        .card-title {
+            &-sub {
+                font-family: $font__family-regular;
+                font-size: $card-desktop-sub-title__font-size;
+                color: $color-on-surface;
+            }
+        }
+        
+        .card-action {
+            @include lib-button-as-link();
+        }
+    }
+    
+    &-details {
+        display: flex;
+        align-items: flex-end;
+        color: $color-on-surface;
+        flex-direction: column;
+        
+        .icon {
+            justify-content: center;
+            @include lib-btn-shape(
+                            30px,
+                            30px,
+                    $_btn-shape-margin: 0 0 5px 0,
+                    $_btn-shape-radius: 50%,
+                    $_btn-shape-background: lighten($color-on-surface, 40%)
+            )
+        }
+    }
+    
+    
+    &.focus {
+        order: 0;
+    }
+    
+    &[data-cat="jams"] {
+        border-left: solid 3px $color-secondary-dark;
+        
+        .icon {
+            @include lib-icon-font-symbol(
+                            $icon-car-sideview,
+                    $_icon-font-size: 2rem,
+                    $_icon-font-color: $color-secondary-dark
+            );
+        }
+    }
+    
+    &[data-cat="roadworks"] {
+        border-left: solid 3px $color-primary-dark;
+        .icon {
+            @include lib-icon-font-symbol(
+                            $icon-wrench,
+                    $_icon-font-size: 2rem,
+                    $_icon-font-color: $color-primary-dark
+            );
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .card {
+        &-info {
+            .card-title {
+                font-size: $card-mobile-title__font-size;
+                margin: 0;
+                
+                &-sub {
+                    margin: 10px 0 10px 0;
+                }
+            }
+        }
+        
+        &-details {
+            font-size: $card-mobile-details__font-size;
+        }
+        
+        &-medium {
+            padding: $card-mobile__padding;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .card {
+        &-info {
+            .card-title {
+                font-size: $card-desktop-title__font-size;
+                margin: 0 0 10px 0;
+                
+                &-sub {
+                    margin: 0 0 20px 0;
+                }
+            }
+        }
+        
+        &-medium {
+            padding: $card-desktop__padding;
+        }
+    }
+}

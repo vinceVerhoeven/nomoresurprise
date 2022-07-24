@@ -1,0 +1,28 @@
+.btn-toggle {
+    @include lib-btn-shape(40px, 5px, $_btn-shape-margin: 0 0 15px 0)
+}
+
+.btn-primary-round {
+    @include lib-btn-primary(
+            $_btn-round: true
+    );
+}
+
+@include media-breakpoint-down(md) {
+    .btn-primary {
+        @include lib-btn-small-primary();
+    }
+    
+    .btn-secondary {
+        @include lib-btn-small-secondary();
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .btn-primary {
+        @include lib-btn-primary();
+    }
+    .btn-secondary {
+        @include lib-btn-secondary();
+    }
+}

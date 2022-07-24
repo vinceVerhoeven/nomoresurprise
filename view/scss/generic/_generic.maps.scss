@@ -1,0 +1,25 @@
+#map {
+    .gm-style {
+        iframe {
+            + div {
+                border: none !important;
+            }
+        }
+    }
+    
+    .gm-style-iw {
+        width: 300px;
+        font-size: $font-_size-medium;
+        font-family: $font-_family-bold;
+    }
+    
+    .gmnoprint {
+        display: none;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    #map {
+        height: calc(100% - #{$sidebar-small__height});
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>NoMoreSurprise</title>
+    <link rel="stylesheet" href="view/build/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/x-icon" href="/view/images/logo/favicon.png">
+</head>
+<body>
+<div id="map" class="container-absolute-max"></div>
+<div class="sidebar">
+    <div class="sidebar-wrapper">
+        <div class="sidebar-wrapper-top">
+            <div class="container-button-down hide-on-desktop">
+                <button data-action="user-location" class="btn-primary-round">
+                    <span class="icon icon-crosshair"></span>
+                </button>
+            </div>
+            <div class="hide-on-desktop container-flex-centered">
+                <button class="btn-toggle"></button>
+            </div>
+            <a class="logo-wrapper hide-on-mobile" href="/">
+                <img class="logo" src="/view/images/logo/logo.png" alt="logo"/>
+            </a>
+            <div class="container-button">
+                <button data-action="show-all" class="btn-secondary active">
+                    <span class="icon">Toon alles</span>
+                </button>
+                <button data-action="show-jams" class="btn-secondary">
+                    <i class="icon icon-before icon-jam">
+                        <span class="hide-on-mobile">files</span>
+                    </i>
+                </button>
+                <button data-action="show-roadworks" class="btn-secondary">
+                    <i class="icon icon-before icon-wrench">
+                        <span class="hide-on-mobile">onderhoud</span>
+                    </i>
+                </button>
+            </div>
+            <div class="container-timeline">
+                <div class="timeline">
+                    <button data-time="3" class="btn-secondary time-btn"></button>
+                    <button data-time="2" class="btn-secondary time-btn"></button>
+                    <button data-time="1" class="btn-secondary time-btn"></button>
+                    <button data-time="0" class="btn-secondary time-btn active"></button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-wrapper-middle">
+            <div class="container-button totals">
+                <span title="totaal" data-total="all" class="icon icon-before icon-info"></span>
+                <span title="file" data-total="jams" class="icon icon-before icon-jam"></span>
+                <span title="wegwerkzaamheden" data-total="roadworks" class="icon icon-before icon-wrench"></span>
+                <span title="kilometer" data-total="distance" class="icon icon-before icon-sad"></span>
+            </div>
+        </div>
+        <div class="sidebar-wrapper-bottom">
+            <div class="card card-medium hide-on-all">
+                <div class="container-left-large card-info">
+                    <h2 class="card-title"></h2>
+                    <h4 class="card-title-sub"></h4>
+                    <button class="card-action">Bekijk</button>
+                </div>
+                <div class="container-right-small card-details">
+                    <i class="icon"></i>
+                    <span class="card-details-pre"></span>
+                    <span class="card-details-after"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script data-main="config" src="view/lib/requirejs.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+{
+  "roadworks" : [
+    {
+      "id": 327705159,
+      "road": "A2",
+      "segmentId": 3102,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "incidentType": "roadwork",
+      "from": "knp. Batadorp",
+      "fromLoc": {
+        "lat": 51.48316,
+        "lon": 5.40628
+      },
+      "to": "knp. Leenderheide",
+      "toLoc": {
+        "lat": 51.40499,
+        "lon": 5.50244
+      },
+      "polyline": "gefyHyu~_@DHTh@`@n@j@z@z@fAh@h@d@b@d@^h@\\~@d@d@Pf@Nf@Ld@Hl@Ff@Br@@t@C~@IfAMtAS^Gj@Ij@I`AMfBWbC]lBYdBWzAUf@IxAQ^Cx@Cb@In@Iz@KhAKtAKfBKPAhFa@nAM~@Kt@Kv@Kx@Ml@IPChASxAWn@Mv@Qb@Ib@Kt@S|@Ud@Mn@Ox@SbA[rBo@l@Sr@U|@]v@[BAz@a@n@]x@a@n@]z@c@f@YjCaBXSr@g@b@[f@]HIHGb@_@TSv@s@`@_@^]h@i@NORS^_@^a@RU\\_@f@m@n@w@n@y@f@q@Zc@T]vAuBf@y@v@qAn@gA\\m@Xi@Ta@NYXi@^w@N[LWRe@`@_AXs@LYRg@Xq@d@qAJ[^eA\\}@V{@b@sAZgAZiAJ]Rs@XgARs@Po@t@{CVaAVaAXcAJ_@Ro@HUTq@Nc@JYN_@JUN_@P]N[NWNYN[R_@Ze@Xc@T[X_@TYPS^a@RS\\]\\[\\WHIVS`@W^UZQZOTMZMXKZKZK\\Kn@Op@Kb@Gh@En@Et@Cb@?d@@\\@\\Bb@Dp@Fr@HzAPv@HtAPpD`@jBRl@HtAPxBTf@FpBTTBVBRBTBbCVvBVz@Jn@Fl@Ft@D`@BT@n@@F?N?H?R?T?l@At@Eh@Eb@GTCZEXEXEf@It@MdAQt@MVG\\EZGdBYbAQjAQ|AWfBYdAQx@Kj@El@GRA`@EZCTC\\GZCd@Ct@GhAI|AKjF]~Hg@bAG`@C~Gc@rAIlCQpAKtAI|@GhDSv@GdAG~BOpBMz@E|AKxAK^CPAHAdBKp@Er@Eh@Ex@Gz@IjAIv@I|AOzAOhBOtAQdAMjC]d@G^G`@ELABAh@GRC`@Et@GRCz@Gx@Eh@In@Ef@CRAPA`AIn@Mb@MVITILGNGZOTOTMTQXUTU`@_@X[V[LQV_@Xc@Ve@Vi@Ti@Ti@Nc@Ro@VeALm@P{@Jk@Hg@@EFc@Hy@D[@WDm@@KB]Bq@@o@@c@?Y?_A?MA_@AY?WCw@IeCCk@C{@?ICs@Eq@CeACy@OwEE{BCmAC_AAeACw@A{@A}@CwAAs@AgA?aAAmB?g@AcAAgB?s@AeAAkB?cB?]?SCiEA}AAyAAwAA_ECeECqAAuBAeCAmBC}BAqAAiDCqEAwCCsDC{FAiB?cA?U?iBAuCCaE?sA?yD?}D?qF?oB?yC@sA@wB?c@?i@@gA@c@?W?M?m@@eA@s@?Y?Q?a@?Q?Q?i@?Q?Y?I?a@?a@@{@BwA?gA@uA@qA@cA@gA@a@?]BmC@wADmC@mABgCBwBBmA?]?]?a@?]@qA@iA@}A@cADkBBuBBwB@uBBaB@qABeB@w@?c@@a@?_@?M@g@DaB@m@?U@s@?s@@g@@kE?W?g@?{@BsB@kA@i@DuDBoABcABaABeA@YHgBJiBN_BJaADk@DY@MRuAFa@TyAN}@Ny@Pw@Jc@T}@Tw@Rs@J]\\cAN_@Vq@HUHWN_@Te@Pa@N[^u@Vc@^q@^m@Xa@Zc@NSLQd@m@TY~@_A\\[\\[POd@]x@k@h@]b@WbAi@b@Sd@Sf@Ud@S^Ov@Wd@OLEl@QtAe@RGn@Ud@OHC",
+      "bounds": {
+        "southWest": {
+          "lat": 51.39686,
+          "lon": 5.40284
+        },
+        "northEast": {
+          "lat": 51.4826,
+          "lon": 5.50587
+        }
+      },
+      "events": [
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "start": "2022-07-28T19:00:00Z",
+      "stop": "2022-08-22T03:00:00Z",
+      "reason": "Wegwerkzaamheden. Van 28 juli 2022 21:00 uur tot 22 augustus 2022 05:00 uur."
+    },
+    {
+      "id": 228380500,
+      "road": "A12",
+      "segmentId": 3022,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "incidentType": "roadwork",
+      "from": "knp. Velperbroek",
+      "fromLoc": {
+        "lat": 51.9819,
+        "lon": 5.97862
+      },
+      "to": "knp. Velperbroek",
+      "toLoc": {
+        "lat": 51.9819,
+        "lon": 5.97862
+      },
+      "polyline": "kih|Hwtlc@Z_BNs@BMHe@RaAZ}Ap@gDF_@Hc@Jc@TgAJi@TcAPy@Jk@Ha@DWDS`@uBBQDSF]Nw@BMDODWBQf@gCDQDWTgAFWLm@FWHYVeABMJ_@Le@Po@Lc@FUBMNg@ZeANg@Ni@Vu@Rk@Pk@j@{APg@HSNc@Ri@Xq@Rg@b@cAJWHOb@_Ad@aA^w@P[Zk@Vg@\\m@f@{@\\k@Xc@`@o@^m@h@w@T_@hAcBZa@\\e@",
+      "bounds": {
+        "southWest": {
+          "lat": 51.97748,
+          "lon": 5.96828
+        },
+        "northEast": {
+          "lat": 51.98502,
+          "lon": 5.98604
+        }
+      },
+      "events": [
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "start": "2020-01-13T21:00:00Z",
+      "stop": "2023-12-31T04:00:00Z",
+      "reason": "Wegwerkzaamheden. Van 13 januari 2020 22:00 uur tot 31 december 2023 05:00 uur."
+    },
+    {
+      "id": 245987685,
+      "road": "A7",
+      "segmentId": 3402,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "incidentType": "roadwork",
+      "from": "Den Oever",
+      "fromLoc": {
+        "lat": 52.92921,
+        "lon": 5.03541
+      },
+      "to": "afrit Zurich",
+      "toLoc": {
+        "lat": 53.09287,
+        "lon": 5.37637
+      },
+      "polyline": "g~_bIilv]UBW@iABq@B_A@U?_@A_@A[Ac@Co@Ge@Gg@Gk@Mi@M_@KSG_@Ma@QKEc@O]Oy@a@m@]u@e@{@m@o@i@e@c@CAeAeACCi@m@CCi@o@CCeBeCc@s@MSMS]k@Sa@MY_@s@]u@Yq@MYk@yAYu@y@wB]_AQg@Sk@Oe@EMGOEIEKS]UYSWMO[a@MOIKIKGKKUO[Qg@O_@KY]}@Yy@q@gB[{@Oe@Oc@aAkCOa@s@oBg@yASc@mAmD_AcCa@gA_@_A[}@Yo@Uk@Sc@u@cB[w@w@gBi@iAqA_DuAcDaA_Ck@oAISGIo@yAIUKWO]GQUg@GQe@kASg@[w@GKEMMYe@cAEKSg@QYYw@MY[u@[u@GMMYEMEMoAsCKY{@oB{@sB{@eBo@}A{@mBm@}Am@qAg@oAa@eA{@wBqBsEk@mAmAuCaA{Be@eAgAgCcBgEs@yAaEsJeAgCiAmCgBcEaAyBm@uAm@yAuAcDOYQc@iCiGg@iAm@yAaBwD{@sBc@cAkBkEsA{C{@sBk@sAiAkCMUwAiDGMcAcCs@}Aq@_Bm@{A}AqDkAqCcA}BkCkGaCuFM[oBsEw@iB}@sB_AyBm@wAm@yAq@}A_B{Dk@qA_AyBiCcGyAqDm@yAKW_AsBeAaCGQ[q@aHoPEIKQk@wAWo@MYGMq@aBGMEIWo@EM{@qBUg@_AwBwIoSi@kAEIAGAEACe@gA[u@q@_B{AkDGOq@}Aq@}AM]_AyBy@oB}@uBmAqC}@uBs@aBYm@cAaC}AsDiAiCu@cBoJwT_CuFe@eAg@oA{@sBe@gAoI}RgBgEu@gBu@gBu@eBm@wAmOe^u@gBcB}Di@qAq@{Au@eBu@iBcA_CmBqEkAoCmDiIm@wAkAkCyCcH_@y@uBcFiAiCyAmDyAkDu@cBq@_Bw@iB}@uB{@uBk@sAwBaFgAgCeAgCkAoCcA_CaB{Dq@_BcAaCu@eBu@eBm@wAw@kBWk@q@cBs@cBw@gBg@oAs@cBs@cBg@qAw@cBk@uAc@eA]w@mAsC{@uBw@cBc@eA}@yBk@uAa@y@{AqDk@uAcC}FsA_DaA_C]u@]w@w@gB{AsDkBeEa@eAa@}@]y@mAsCa@aAs@_BsA{CiAoCo@yAiAqCiAgCmBqE{@uBo@{AyBcFo@{A}@uBa@eA{AkDqAyCa@aAk@qAk@}Aa@{@]y@Ys@}@cCYu@Mi@]}@c@wAc@oAUq@Y{@c@qAg@uAa@gAUk@g@mAk@uAg@oAg@oAUg@]s@g@qAQ_@]{@u@eB{@oBi@qAq@{AgAiCSg@MYWm@e@gA}AqDSe@EIUg@iFaMe@eA_@_AGMe@iAUi@eAcCQe@MYCIGKGMk@wAGMs@eBGM]w@Qc@Qc@Ui@k@oAs@}A]s@g@gAUg@Yk@a@s@eAqBkBgDw@aB_AmBsA}CcA_Ci@sAgAeCw@oBsAaDe@eAgAaCUo@]w@i@qA_FoLe@mACCKUQ_@GM?CCIe@cA{@yB]u@i@mAGOQg@u@cBi@kAQc@?CKUCCi@oAu@gBQc@wAiDq@{Am@sAQe@KU]y@q@{AOa@Ui@{@yBUg@gAgCi@uAm@wAi@mAYu@iBcEO_@e@iAa@aAcXco@i@sASa@aB{Da@aAO_@_@y@Sg@Wi@[w@eAcCe@qAS_@qA{C}@wBa@cAeImR[s@y@oB[s@{CaHi@wAm@wAWk@cB{DmDmIo@{A_KcVWi@c@gAk@mAw@mBoEoKo@}Ak@mAK[_AuBw@iBKUg@qAcDaIs@aBSe@O[o@{Ak@uA_AwBoA}C_@{@g@mA_@}@_BqDcBcEWi@{FaNs@aBw@kBWu@{JuUg@iA_BsDg@kAs@eBgBeEgBiEg@kAk@qA_@aA[s@c@kA[}@[}@Ws@W}@KWOk@[gAKWS{@[kA_@wASw@CQG[Ok@Ka@?IG_@K_@Ga@COCOCOKc@CSKi@GUGa@Ca@O_ACOG[Gm@G_@CWG]C]G[CWCc@Gi@G_@Gm@Cc@Ge@Ca@C]Gq@Gk@Gi@Ca@Cg@_@kEGc@Ck@CQCYKqAKw@K{ACUWsCCQ?QGk@Gs@CYKqACMCe@CUCWGm@?QOwAGs@?QGa@g@cGCa@KeASqB?YEQEa@?QEc@Eo@KiAEQ?YQqAKwA?UWaCKcBEa@Ks@Eu@Ks@?QEc@KaAEe@Es@Ek@EQ?YEOEYEs@EY?QEYEy@Ee@Ek@K{@?QKaAEUKeAWsDKm@?QEYc@eFEe@E_@KiBEUEa@Eo@KcAEk@Ek@EK?KEc@Ec@QqBQcBEw@KkAUqBGi@OkB?OO{AKyACY?MCe@?c@?k@?uA?s@?a@?i@Cg@?]CSCo@CUGg@Cs@]oDKkAEg@AQCYAQGs@IiA[qDEa@e@uF?ECQGs@E_AMcBIiAQwAOqAEe@Eg@E]OmAC[Ko@K{@QkAGa@My@Oy@Ko@EYKi@I_@COKg@YwAOo@Mo@WgAKe@a@cBUw@e@_BI[IW_@oA_@iASk@K[Qi@a@gA}@wBIU]u@Sc@_@{@w@_BeAsBiA{B_AmBeBkDiBqDoAeCaBeDYk@oAgCwAsCeAwBcAmBkEwIq@uAw@}AACGKACEGACSa@c@{@EGGKKUOYMYWe@Ue@GMGKEIu@}AOYGKGK]s@OYGKOYGKc@_As@{Ag@aAk@mAg@cAk@gASa@c@}@]q@Sa@MU_AmBMUGMQ[MUw@{A_@u@Yk@CGWg@aBcD]s@e@aAuAmCqAgCWk@_AkBcAwB[o@Yo@c@aAUi@]w@o@_Bu@uBWs@ISQe@u@yBUu@YaAYaAGSK]_@uASu@Mg@Sy@U_Au@kDOw@Ow@ScAMo@Oy@Mu@UsAMu@Ik@Ks@E_@Gc@SyAM}@ScBQ}AEa@SuBEe@OcBGq@Ee@GaAKuAEs@Es@KqBIeBCi@EmAA[CaA",
+      "bounds": {
+        "southWest": {
+          "lat": 52.92532,
+          "lon": 5.03501
+        },
+        "northEast": {
+          "lat": 53.09696,
+          "lon": 5.39265
+        }
+      },
+      "events": [
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "start": "2019-07-01T04:00:00Z",
+      "stop": "2022-12-01T22:00:00Z",
+      "reason": "Wegwerkzaamheden. Van 1 juli 2019 06:00 uur tot 1 december 2022 23:00 uur."
+    },
+    {
+      "id": 327705167,
+      "road": "A2",
+      "segmentId": 3102,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "incidentType": "roadwork",
+      "from": "knp. Leenderheide",
+      "fromLoc": {
+        "lat": 51.40499,
+        "lon": 5.50244
+      },
+      "to": "knp. Batadorp",
+      "toLoc": {
+        "lat": 51.48316,
+        "lon": 5.40628
+      },
+      "polyline": "cuuxHair`@uAb@cBj@g@Rm@V]NSJe@TEBULsA|@_@Z[TcA|@_@`@WV[Zm@r@]d@a@j@]d@W`@_@l@m@fAm@lAi@jAe@hAc@lA_@lAc@xAi@tB[xAS`AUvAY|AIl@Gh@Ij@Ir@Gl@Gr@Eh@Gt@Ej@Ez@Er@Cn@C|@A`@Cv@?`@CrAAdAAv@At@Av@At@CrBCfAAl@?RCxEC~CAr@At@AbAAnAAbAEpCEjEC~BChBAfACvAEvDA`AAvAAj@?TA|@CtBEjCClBC`DIbG?ZAdACnBAr@AhACpBCxAChCAlACrAAtBCnDCdCAdBAnBAzB?lC?pA?xA?jEB`HB|EB~C?tA?V?f@@pA@bB@zA@vB?rABjC@dABlFBbEBhIBpFB|FB`C@~@?x@@bA@xD@nC@h@?x@?l@@zBF`JB|CBhC@x@BnBBtADlBBnABhABhA@h@DpAD|ABr@DfBDfAD|ADtABdABf@?P@p@A^@\\Ah@?`AA^AT?PA\\?HANAPEl@Ej@Gd@E^Gb@Id@Ib@I`@ERIZKb@Md@Ob@]~@Uj@[p@Q\\S\\[f@SXQRY\\e@f@_@ZYTSL[Pk@X]NYJUFi@L_@Fw@JcDZuCVUBe@D_@Dg@F_@Ds@Hs@H_AL}@LmANmBTUB]Da@De@FuALkCTk@DC?y@Fi@De@D}@Fo@DyBNQ@K@Y@u@D_BJ_AFoDT}AJuBL_BJ_AFcBJk@DwBN_CNqBLy@FkCP}AJaCN{Gb@iIf@qAHsCTe@BcAJo@Fo@Hg@Fm@J}@NwCd@{@L{AVc@Hs@Lm@JUDg@Hg@JgCb@k@Hk@Hq@Hk@Fi@De@@Y@c@?Q?M?O?G?s@AWA[Ca@Ce@E_@Ee@EeAMy@KyBWi@G]E_@EOAgBSiCYoC[_@EYEeAK{BWo@Ia@Gi@G{@Oo@KyAW_@GYEYCYEk@Ek@Co@?Y?[@Y@e@Ba@Dg@Fm@J[F]He@L[J_@L]Lk@V[PWLSLUNSNWP_@XOLSPOLYV[Zc@d@]`@[`@[b@]f@SZSZU`@Ub@QZIPCFOZIPUh@Uj@Ob@Sj@Ut@M`@Md@St@Sz@K\\Kb@Kb@Kb@Ol@c@jBi@vBOl@Kd@Kb@Ux@_@nAUt@Ur@Wt@Ul@[|@[|@Uj@c@dAa@`AQb@O\\Q`@e@bA_@v@uAlCk@fAi@`AcAbBOTKNW`@_@j@Y`@ORa@j@]d@a@h@g@l@]b@a@d@_@d@s@v@WVYXMLcAbA[Z_@\\[Va@^_@\\IHGFUPeAv@o@b@g@\\y@h@WNk@\\k@ZcAh@{@b@m@XSHYLQHq@X}@ZiA`@]L]LiA\\{EnAmBb@i@JsAXu@N_BZy@LSD_@Do@Js@JcALgBXoAN}AE}@?e@?wB?iCD}CH[@[@U@u@Dc@BQ@Q@UBa@Bi@DmCVy@Hu@Fm@Fo@F}AN}DP_@D_@B]B_@Bs@HgAJ{@D[?SA_AGSCOCcAQOEOGICe@Sk@Ys@c@e@]USSQ_@_@Y[[a@a@i@Ye@c@u@Yo@Yq@]_Ae@}A]}AYqAOq@",
+      "bounds": {
+        "southWest": {
+          "lat": 51.3981,
+          "lon": 5.40392
+        },
+        "northEast": {
+          "lat": 51.48334,
+          "lon": 5.50561
+        }
+      },
+      "events": [
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "start": "2022-07-28T19:00:00Z",
+      "stop": "2022-08-22T03:00:00Z",
+      "reason": "Wegwerkzaamheden. Van 28 juli 2022 21:00 uur tot 22 augustus 2022 05:00 uur."
+    },
+    {
+      "id": 325158897,
+      "road": "A4",
+      "segmentId": 3300,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Badhoevedorp",
+      "fromLoc": {
+        "lat": 52.32863,
+        "lon": 4.79537
+      },
+      "to": "knp. De Nieuwe Meer",
+      "toLoc": {
+        "lat": 52.33712,
+        "lon": 4.8418
+      },
+      "polyline": "mvj~Hkcd\\u@iMEo@G_AQkCAQIkACc@GiAEw@AQSkDAQCYAQIkAC[Ek@Ek@QaCMeBEe@Eo@I_AUgCIw@K_ACQK}@K}@OkAKu@Ky@_@}BcBsJUiAKi@Ow@AEWgAYkASw@c@aBc@yAa@oACIIYCKK_@Qm@GSOg@EOISOc@Yy@ISM]EQKYKUSi@Sg@Se@]y@c@eAYo@w@aBa@y@IO[q@i@aAUe@Wg@OYsAiCy@}AMWc@y@_@q@]q@IOIMGI_@q@[s@KUMUWm@{AqCeDmGMYmA}B]q@k@kAa@y@c@_AUg@e@gA[u@Wo@Wo@Si@Uo@Qg@aAqD_@wAQ{@WkAUoAO{@[wBCMCQCSGi@CWCSMuAOiBKcBEkAImBCwAC_F?qB?aA?_FAoF?e@?Y?U?O?]?Q?Y?_@?Q?[?kA?o@?E?K?E?Q?K?E?K?W?Q?Q?wA@eA?c@?Q?eA?Y?[?c@?i@?I?Q?Q?Q?eA?Q?s@?o@?E?]?W?Q@]AU?Q?Q?Q?Q?C?A?K?E?K?C?U?I?Q?Q?c@?Q?c@?Q?Q?Q?s@?Q?Q?Q@iB?Q?c@?_H?kB?_A?Q?E?K?E?]?E?K?E?]?Q?Q?Q@m@@a@?c@@i@DeB@q@Bc@DmAFsADo@DeAF{@Dm@@OL{AL}AFi@Dg@RiBLkAHu@RkBLsAFw@Do@B]Do@D}@Bu@Bg@Bs@BeA@a@?q@?oA?}AAi@?g@C{@AeAEaB",
+      "bounds": {
+        "southWest": {
+          "lat": 52.32503,
+          "lon": 4.77766
+        },
+        "northEast": {
+          "lat": 52.33828,
+          "lon": 4.84639
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        }
+      ],
+      "start": "2022-07-22T20:00:00Z",
+      "stop": "2022-08-03T03:00:00Z",
+      "reason": "Dicht. Van 22 juli 2022 22:00 uur tot 3 augustus 2022 05:00 uur."
+    },
+    {
+      "id": 329740912,
+      "road": "A15",
+      "segmentId": 3056,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "de Noordtunnel",
+      "fromLoc": {
+        "lat": 51.85758,
+        "lon": 4.6541
+      },
+      "to": "de Noordtunnel",
+      "toLoc": {
+        "lat": 51.85758,
+        "lon": 4.6541
+      },
+      "polyline": "{ko{Hszj[AoDC}B?g@E{FEkECeEA}C?oAAqA?mA?oAC_D?mE?s@?S?w@?gD?q@@oABgAB}ABqABo@Bi@Bk@DcAD{@FeADi@H{@Dq@N{AJeAHw@Ju@NcADW",
+      "bounds": {
+        "southWest": {
+          "lat": 51.85687,
+          "lon": 4.64826
+        },
+        "northEast": {
+          "lat": 51.85757,
+          "lon": 4.66507
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        }
+      ],
+      "start": "2022-07-20T19:00:00Z",
+      "stop": "2022-07-22T03:00:00Z",
+      "reason": "Dicht. Van 20 juli 2022 tot 22 juli 2022 dagelijks tussen 21:00 uur en 05:00 uur."
+    },
+    {
+      "id": 329072471,
+      "road": "A22",
+      "segmentId": 3463,
+      "codeDirection": 0,
+      "type": "a",
+      "afrc": 0,
+      "category": "roadworks",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "de Velsertunnel",
+      "fromLoc": {
+        "lat": 52.46355,
+        "lon": 4.65397
+      },
+      "to": "de Velsertunnel",
+      "toLoc": {
+        "lat": 52.46355,
+        "lon": 4.65397
+      },
+      "polyline": "a|f_I{pk[`@Gx@STG`@IxCw@??REPE`@KZIrBi@b@M|@WNEpBg@nA[nBg@bAWn@QvA_@h@MPGf@O\\INGn@MtA_@f@Md@MTGFC^KTIl@OTGFABAx@U^KZK`@KVGXIb@MLCLETGPGd@KhD}@TGJC`@MXG|@W|@[d@MnA]dAYj@On@QXId@M",
+      "bounds": {
+        "southWest": {
+          "lat": 52.45559,
+          "lon": 4.65182
+        },
+        "northEast": {
+          "lat": 52.46929,
+          "lon": 4.65682
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        }
+      ],
+      "start": "2022-08-01T19:00:00Z",
+      "stop": "2022-08-03T03:00:00Z",
+      "reason": "Dicht. Van 1 augustus 2022 tot 3 augustus 2022 dagelijks tussen 21:00 uur en 05:00 uur."
+    }
+  ]
+}

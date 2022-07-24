@@ -1,0 +1,21 @@
+$font__path: "../../fonts/webfont/";
+$icon__path: "../../fonts/icons/";
+$font__family-light: "Roboto-Light";
+$font__family-regular: "Roboto-Regular";
+$font__family-bold: "Roboto-Bold";
+$font__family-icons: "Yoursurprise-Icons";
+$font__size-base: 1.5rem;
+$font__size-large: 3rem;
+$font__size-medium: 1.4rem;
+$font__size-small: 1.4rem;
+$font__size-extra-small: 1.2rem;
+$font__family-base: $font__family-regular;
+$font__weight-regular: 300;
+
+$link__color: $color-primary-dark;
+$link__text-decoration: none;
+$link__active__color: $link__color;
+$link__hover__color: $color-primary-light;
+$link__visited__color: $link__color;
+
+$text__color: $color-surface-secondary;

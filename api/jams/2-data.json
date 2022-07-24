@@ -1,0 +1,302 @@
+{
+  "jams": [
+    {
+      "id": 17800104,
+      "road": "A58",
+      "segmentId": 3352,
+      "codeDirection": 1,
+      "type": "a",
+      "afrc": 0,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Bergen op Zoom-Centrum",
+      "fromLoc": {
+        "lat": 51.49955,
+        "lon": 4.3194
+      },
+      "to": "Heerle",
+      "toLoc": {
+        "lat": 51.50704,
+        "lon": 4.36071
+      },
+      "polyline": "{fjyHgdoYOsAUoBCWE_@CUCOE_@Ge@Gg@COIk@E[AGCSIk@K{@CUCOM_AAIEWKw@AICOEWE_@COIg@_@iC_@iCEUCQO{@CSCOMw@Ic@?C[kCCMCOCQ",
+      "bounds": {
+        "southWest": {
+          "lat": 51.50334,
+          "lon": 4.3426
+        },
+        "northEast": {
+          "lat": 51.50515,
+          "lon": 4.35083
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 200
+        }
+      ],
+      "distance": 200,
+      "start": "2022-07-22T19:15:00Z"
+    },
+    {
+      "id": 17790352,
+      "road": "N7",
+      "segmentId": 3412,
+      "codeDirection": 1,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "Groningen-Zuidoost",
+      "fromLoc": {
+        "lat": 53.21149,
+        "lon": 6.58856
+      },
+      "to": "knp. Euvelgunne",
+      "toLoc": {
+        "lat": 53.21693,
+        "lon": 6.61843
+      },
+      "polyline": "suwcIckeg@CKI]Mk@Kq@Ki@EWKq@Ga@Ia@Kg@Ia@Qo@IYIUGSSm@c@wAWaA}@uCm@kBEMSo@Oe@Qm@GWEMEU[_BESAICMCSIq@Gs@Ec@Ce@Cc@Cg@AWAYAs@?W?SAW?YCg@Cw@C_@CUASAUCOEm@Ee@UsBIw@Io@CQGi@Ea@CQOuACQE_@E[COKw@UuBQ{AUsBWwBKaAEc@EUAGE[E_@COIi@Ko@I_@EWI_@S_AQs@Qq@EMSq@GSQk@Qi@[cAMc@a@mAYaAc@{AEOGSMe@Kc@UaAKc@CKCKACOw@COESCMOy@COEYOaAa@yBo@mEOmAUcDEs@CiACk@Au@?w@?u@B{@Bs@Bc@Dw@LuBLeBJiBJ}ALsBLoBBWB[NwBF}@PgBLkAL_AL{@Hg@F]Ha@FSFQLYHMDGHIJIPIPGTATBPFRLTTLTLZJ\\D^D\\@X?NAf@CTANGZMb@GPKPW\\KLGF[X",
+      "bounds": {
+        "southWest": {
+          "lat": 53.21066,
+          "lon": 6.58626
+        },
+        "northEast": {
+          "lat": 53.21762,
+          "lon": 6.62219
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17794258,
+      "road": "N7",
+      "segmentId": 3412,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "knp. Euvelgunne",
+      "fromLoc": {
+        "lat": 53.21693,
+        "lon": 6.61843
+      },
+      "to": "Groningen-Zuidoost",
+      "toLoc": {
+        "lat": 53.21149,
+        "lon": 6.58856
+      },
+      "polyline": "}_xcIwqlg@cAjAs@f@WPmAjA{@p@g@ZSFSDQBYBS?m@Ee@KYKQIe@]SOe@]SKOGYEW@OBUFSJQNQVMTM`@GTGVMp@YvBMbAKfAOxAIz@KxACTEf@Ep@Ed@UpDQdCEh@ItACb@C^IvAEdACf@IvA?|B?n@@b@@n@D~@B\\B^Bt@D\\Fh@D^BNHn@@HD^Jl@Hl@Hf@Hd@F\\PdAV|AP`APbAVfAFVBNDNJd@Rv@H^FTNf@Lb@Nf@h@fBh@dBd@vAJ`@FRLb@FTJ^J^ZjAJ^Pr@VjAJl@F\\F\\Hf@DTJx@@JHp@LbAHp@J~@BRLhATvBbBjOD^LnA@NBRDb@B^B`@?D@V?FBr@@\\@X?V?P?N@j@?F?T?T@b@@`@Bh@B^J`AJx@BRJr@H\\H\\J`@dAxDLb@l@hBfAfDLd@Rl@Tr@Ph@^lAJ\\FXF\\Nr@Jd@Hd@H^^rBFZFZZhAFTHVL`@Vt@",
+      "bounds": {
+        "southWest": {
+          "lat": 53.2103,
+          "lon": 6.58494
+        },
+        "northEast": {
+          "lat": 53.21778,
+          "lon": 6.62316
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 701,
+          "text": "Wegwerkzaamheden"
+        }
+      ],
+      "reason": "Dicht. Wegwerkzaamheden."
+    },
+    {
+      "id": 17797281,
+      "road": "N270",
+      "segmentId": 6475,
+      "codeDirection": 1,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "de aansluiting met de N279",
+      "fromLoc": {
+        "lat": 51.47095,
+        "lon": 5.71621
+      },
+      "to": "Deurne",
+      "toLoc": {
+        "lat": 51.46812,
+        "lon": 5.78579
+      },
+      "polyline": "uncyHcn`b@@S?G",
+      "bounds": {
+        "southWest": {
+          "lat": 51.46874,
+          "lon": 5.74194
+        },
+        "northEast": {
+          "lat": 51.46875,
+          "lon": 5.74208
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 201,
+          "text": "Door een ongeluk"
+        }
+      ],
+      "stop": "2022-07-22T19:30:00Z",
+      "reason": "Dicht. Door een ongeluk."
+    },
+    {
+      "id": 17797194,
+      "road": "N270",
+      "segmentId": 6475,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "label": "closed",
+      "incidentType": "road-closed",
+      "from": "Deurne",
+      "fromLoc": {
+        "lat": 51.46812,
+        "lon": 5.78579
+      },
+      "to": "de aansluiting met de N279",
+      "toLoc": {
+        "lat": 51.47095,
+        "lon": 5.71621
+      },
+      "polyline": "sncyH{n`b@?DAR",
+      "bounds": {
+        "southWest": {
+          "lat": 51.46874,
+          "lon": 5.74193
+        },
+        "northEast": {
+          "lat": 51.46875,
+          "lon": 5.74206
+        }
+      },
+      "events": [
+        {
+          "alertC": 401,
+          "text": "Dicht"
+        },
+        {
+          "alertC": 201,
+          "text": "Door een ongeluk"
+        }
+      ],
+      "stop": "2022-07-22T19:30:00Z",
+      "reason": "Dicht. Door een ongeluk."
+    },
+    {
+      "id": 17800105,
+      "road": "N271",
+      "segmentId": 4173,
+      "codeDirection": 0,
+      "type": "n",
+      "afrc": 3,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "Industriegebied Spikweien",
+      "fromLoc": {
+        "lat": 51.4465,
+        "lon": 6.17363
+      },
+      "to": "Grubbenvorst",
+      "toLoc": {
+        "lat": 51.41441,
+        "lon": 6.16576
+      },
+      "polyline": "cs{xHs|sd@|AV`H`AnBZhHhAn@HvAT|@N`Ep@bAPrBZJBPBPBDFZFRBNDJBLDD@D@D@F?R@J@D@JBf@Hd@Hx@Nv@Nx@LRBLBp@J",
+      "bounds": {
+        "southWest": {
+          "lat": 51.41888,
+          "lon": 6.16679
+        },
+        "northEast": {
+          "lat": 51.4285,
+          "lon": 6.16922
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 1100
+        }
+      ],
+      "distance": 1100,
+      "delay": 300,
+      "start": "2022-07-22T19:17:30Z"
+    },
+    {
+      "id": 17799978,
+      "road": "Tilburg",
+      "segmentId": 29156,
+      "codeDirection": 1,
+      "type": "other",
+      "afrc": 5,
+      "category": "jams",
+      "incidentType": "stationary-traffic",
+      "from": "de Prof. Cobbenhagenlaan",
+      "fromLoc": {
+        "lat": 51.56048,
+        "lon": 5.06479
+      },
+      "to": "de Heuvelring",
+      "toLoc": {
+        "lat": 51.55953,
+        "lon": 5.0913
+      },
+      "location": "Hart van Brabantlaan/Spoorlaan",
+      "polyline": "ikuyHy_~]?S?i@?qE@o@DmDBy@Bi@Dg@B_@B[Hc@DYDYDU@M?K@Q?K@QBq@@]?o@?Y?WASC_@Em@Go@Eg@CYCWEs@Cg@C_@Aa@A]?]?g@?a@@e@Bg@Bg@Dc@Da@D_@B]FkADoADiAD}@??",
+      "bounds": {
+        "southWest": {
+          "lat": 51.55999,
+          "lon": 5.07405
+        },
+        "northEast": {
+          "lat": 51.56037,
+          "lon": 5.08468
+        }
+      },
+      "events": [
+        {
+          "alertC": 101,
+          "text": "Stilstaand verkeer",
+          "distance": 700
+        }
+      ],
+      "distance": 700,
+      "delay": 420,
+      "start": "2022-07-22T17:41:30Z"
+    }
+
+  ]
+}

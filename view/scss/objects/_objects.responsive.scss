@@ -1,0 +1,15 @@
+.hide-on-all {
+    display: none !important;
+}
+
+@include media-breakpoint-down(sm) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
